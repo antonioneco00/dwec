@@ -1,4 +1,9 @@
-var numero = prompt('Introduce un numero:', 0);
+var numero;
+
+do {
+    numero = prompt('Introduce un numero:', 0);
+} while (isNaN(numero));
+
 var primo = true;
 
 for (let i = 2; i < numero; i++) {
