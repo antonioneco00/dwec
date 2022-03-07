@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>El tiempo</title>
+        <style>
+            table {
+                display: none;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            th, td {
+                padding: 0 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>El tiempo</h1>
+
+        <select id="select">
+            <option value="" selected disabled hidden>Elija una ciudad</option>
+            <option value="Málaga">Málaga</option>
+            <option value="London">London</option>
+            <option value="Paris">Paris</option>
+            <option value="Zurich">Zurich</option>
+            <option value="Berlin">Berlin</option>
+        </select>
+
+        <div id="datos">
+            <table border="1">
+                <tr>
+                    <th>Ciudad</th>
+                    <td id="ciudad"></td>
+                </tr>
+                <tr>
+                    <th>Temperatura</th>
+                    <td id="temperatura"></td>
+                </tr>
+                <tr>
+                    <th>Humedad</td>
+                    <td id="humedad"></td>
+                </tr>
+                <tr>
+                    <th>Viento</th>
+                    <td id="viento"></td>
+                </tr>
+                <tr>
+                    <th>Tiempo</th>
+                    <td id="tiempo"></td>
+                </tr>
+                <tr>
+                    <th>Precipitaciones</th>
+                    <td id="precipitaciones"></td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
